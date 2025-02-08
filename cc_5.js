@@ -18,3 +18,11 @@ const order = {
 };
 order.displayOrder(); // Calling the method to display order details
 
+
+// Task 3: Shopping Cart - Managing cart items using array methods
+let cartItems = ["Creatine", "Kolaid Pre-Workout", "Hydration Sticks"];
+cartItems.push("BCAA"); // Adding an item to the end
+cartItems.pop(); // Removing the last item
+cartItems.unshift("Protein Powder"); // Adding an item to the beginning
+cartItems.shift(); // Removing the first item
+console.log("Final Cart Items:", cartItems); // Displaying the updated cart
