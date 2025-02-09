@@ -56,4 +56,12 @@ function calculateTax(amount, taxRate) {
 // Calculating tax
 calculateTax(300,.06)
 
+//Task 9: Function Expression
+const applyDiscount = function(price, discount) {// You can also have a set discount price 
+    let discountedPrice = price * (1 - discount); // Applying the discount
+    console.log(`Price after ${discount * 100}% discount: $${discountedPrice.toFixed(2)}`);
+    return discountedPrice;
+}; 
+applyDiscount(100,.10); // Testing with a $100 price
+
 
