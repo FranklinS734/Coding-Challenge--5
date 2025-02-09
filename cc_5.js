@@ -37,4 +37,7 @@ let inventory = [10, 5, 0, 5, 10];
 let availableProducts = inventory.filter(item => item > 0); // Keeping only products with stock
 console.log("Available Inventory:", availableProducts);
 
-
+// Task 6: Reduce Method
+let sales = [400, 200, 300, 600, 200];
+let totalRevenue = sales.reduce((acc, sale) => acc + sale, 0); // Adding up all sales
+console.log("Total Revenue:", totalRevenue);
