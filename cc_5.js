@@ -64,4 +64,13 @@ const applyDiscount = function(price, discount) {// You can also have a set disc
 }; 
 applyDiscount(100,.10); // Testing with a $100 price
 
+// Task 10: Arrow Function
+const calculatePoints = purchaseAmount => {
+    let points = Math.floor(purchaseAmount / 10); // Earning 1 point per $10 spent
+    console.log(`Loyalty Points Earned: ${points}`);
+    return points;
+};
+calculatePoints(3000); // Testing with a $3000 purchase
+
+
 
