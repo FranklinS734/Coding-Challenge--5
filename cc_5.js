@@ -31,3 +31,10 @@ console.log("Final Cart Items:", cartItems); // Displaying the updated cart
 let prices = [20, 40, 25];
 let discountedPrices = prices.map(price => price * 0.9); // Applying a 10% discount
 console.log("Discounted Prices:", discountedPrices);
+
+// Task 5: Filter Method
+let inventory = [10, 5, 0, 5, 10];
+let availableProducts = inventory.filter(item => item > 0); // Keeping only products with stock
+console.log("Available Inventory:", availableProducts);
+
+
